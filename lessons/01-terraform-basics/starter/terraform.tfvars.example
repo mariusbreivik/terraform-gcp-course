@@ -1,0 +1,5 @@
+project_id = "my-gcp-project"
+region = "europe-west1"
+network_name = "lesson1-vpc"
+subnet_name = "lesson1-subnet"
+subnet_cidr = "10.10.0.0/24"

@@ -1,0 +1,9 @@
+project_id = "my-gcp-project"
+region = "europe-west1"
+app_name = "course-app"
+service_name = "course-service"
+
+secret_name = "course-secret"
+
+# Existing identity used by Cloud Run.
+service_account_email = "course-app-sa@my-gcp-project.iam.gserviceaccount.com"

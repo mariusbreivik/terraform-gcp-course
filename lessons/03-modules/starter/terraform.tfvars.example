@@ -1,0 +1,7 @@
+environment = "dev"
+project_id = "my-gcp-project"
+region = "europe-west1"
+
+network_name = "lesson3-vpc"
+subnet_name  = "lesson3-subnet"
+subnet_cidr  = "10.30.0.0/24"

@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "terraform-engineer": {
+      "source": "jeffallan/claude-skills",
+      "sourceType": "github",
+      "skillPath": "skills/terraform-engineer/SKILL.md",
+      "computedHash": "6b6c6907d75aae6e02262d6641725a94d615bff72d5cdeacd56de17791bddcf8"
+    }
+  }
+}

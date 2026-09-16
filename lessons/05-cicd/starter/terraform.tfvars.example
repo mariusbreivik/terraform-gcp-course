@@ -1,0 +1,5 @@
+environment = "dev"
+project_id  = "my-gcp-project"
+region      = "europe-west1"
+state_bucket = "my-tf-state"
+state_prefix = "lesson5/dev"

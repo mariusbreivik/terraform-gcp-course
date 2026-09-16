@@ -1,0 +1,4 @@
+org_name = "example-org"
+region   = "europe-west1"
+dev_project = "course-dev"
+prod_project = "course-prod"

@@ -1,0 +1,19 @@
+project_id = "my-gcp-project"
+region = "europe-west1"
+network_name = "foundation-vpc"
+subnet_name = "foundation-subnet"
+subnet_cidr = "10.20.0.0/24"
+service_account_id = "foundation-sa"
+
+# If create_service_account is false (default), provide the existing SA email.
+service_account_email = "foundation-sa@my-gcp-project.iam.gserviceaccount.com"
+
+# Choose the narrowest role that matches your learner's intent.
+iam_member = "user:your-email@example.com"
+iam_role   = "roles/viewer"
+
+# Defaults keep IAM + API enablement disabled so the lesson remains runnable
+# without elevated org permissions.
+# create_service_account     = false
+# manage_iam_bindings       = false
+# enable_apis               = false
